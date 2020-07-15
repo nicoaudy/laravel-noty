@@ -2,19 +2,34 @@
 
 return [
     /*
-    * Title color
+    * Title configuration color
     */
     'titleColor' => '',
 
     /*
-    * Title size
+    * Title configuration size
     */
     'titleSize' => '',
 
     /*
-    * Title line hight
+    * Title configuration line hight
     */
     'titleLineHeight' => '',
+
+    /*
+    * Message configuration color
+    */
+    'messageColor' => '',
+
+    /*
+    * Message configuration size
+    */
+    'messageSize' => '',
+
+    /*
+    * Message configuration line hight
+    */
+    'messageLineHeight' => '',
 
     /*
      * Positions:  bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
@@ -42,9 +57,24 @@ return [
     'progressBar' => true,
 
     /*
-     * Close a flash message
+     * [boolean] - Balloon
      */
-    'closeOnClick' => false, // bool
+    'balloon' => true,
+
+    /*
+     * [boolean] - enable to close?
+     */
+    'close' => true,
+
+    /*
+     * [boolean] - Close on click
+     */
+    'closeOnClick' => false,
+
+    /*
+     * [boolean] - Close on escape?
+     */
+    'closeOnEscape' => false,
 
     /*
      * Animate inside
