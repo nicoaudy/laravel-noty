@@ -23,7 +23,13 @@
 				pauseOnHover: '{{ (!empty(session('noty.config.pauseOnHover')) ? session('noty.config.pauseOnHover') : config('laravel-noty.pauseOnHover'))  }}',
 				resetOnHover: '{{ (!empty(session('noty.config.resetOnHover')) ? session('noty.config.resetOnHover') : config('laravel-noty.resetOnHover'))  }}',
 				progressBar: '{{ (!empty(session('noty.config.progressBar')) ? session('noty.config.progressBar') : config('laravel-noty.progressBar'))  }}',
+				progressBarColor: '{{ (!empty(session('noty.config.progressBarColor')) ? session('noty.config.progressBarColor') : config('laravel-noty.progressBarColor'))  }}',
+				progressBarEasing: '{{ (!empty(session('noty.config.progressBarEasing')) ? session('noty.config.progressBarEasing') : config('laravel-noty.progressBarEasing'))  }}',
 				balloon: '{{ (!empty(session('noty.config.balloon')) ? session('noty.config.balloon') : config('laravel-noty.balloon'))  }}',
+				transitionIn: '{{ (!empty(session('noty.config.transitionIn')) ? session('noty.config.transitionIn') : config('laravel-noty.transitionIn'))  }}',
+				transitionOut: '{{ (!empty(session('noty.config.transitionOut')) ? session('noty.config.transitionOut') : config('laravel-noty.transitionOut'))  }}',
+				transitionInMobile: '{{ (!empty(session('noty.config.transitionInMobile')) ? session('noty.config.transitionInMobile') : config('laravel-noty.transitionInMobile'))  }}',
+				transitionOutMobile: '{{ (!empty(session('noty.config.transitionOutMobile')) ? session('noty.config.transitionOutMobile') : config('laravel-noty.transitionOutMobile'))  }}',
 			});
 
             @foreach (session('noty.messages') as $item)

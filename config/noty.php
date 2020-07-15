@@ -57,6 +57,16 @@ return [
     'progressBar' => true,
 
     /*
+     * [string] - Progress bar color
+     */
+    'progressBarColor' => '',
+
+    /*
+     * [string] - Progress bar easing
+     */
+    'progressBarEasing' => 'linear',
+
+    /*
      * [boolean] - Balloon
      */
     'balloon' => true,
@@ -95,4 +105,26 @@ return [
      * Reset on hover
      */
     'resetOnHover' => false, // bool
+
+    /*
+     * [string] - Transition In
+     * Default toast open animation. It can be: bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight or flipInX.
+     */
+    'transitionIn' => 'fadeInUp',
+
+    /*
+     * [string] - Transition Out
+     * Default toast close animation. It can be: fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
+     */
+    'transitionOut' => 'fadeOut',
+
+    /*
+     * [string] - Transition In Mobile
+     */
+    'transitionInMobile' => 'fadeInUp',
+
+    /*
+     * [string] - Transition Out Mobile
+     */
+    'transitionOutMobile' => 'fadeOutDown',
 ];
