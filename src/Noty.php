@@ -16,11 +16,6 @@ class Noty
         $this->config = config('noty');
     }
 
-    public function flash($name, $data = [])
-    {
-        $this->session->flash($name, $data);
-    }
-
     public function config($config = [])
     {
         $this->session->flash('noty.config', $config);
@@ -28,7 +23,27 @@ class Noty
         return $this;
     }
 
-    public function message($message, $type = 'blue')
+    public function info($message = null)
+    {
+        return $this->message($message, 'blue');
+    }
+
+    public function warning($message = null)
+    {
+        return $this->message($message, 'yellow');
+    }
+
+    public function success($message = null)
+    {
+        return $this->message($message, 'green');
+    }
+
+    public function danger($message = null)
+    {
+        return $this->message($message, 'red');
+    }
+
+    public function message($message, $type = 'primary')
     {
         $messages = [];
 
@@ -49,7 +64,7 @@ class Noty
         $this->session->flash('noty.messages', $messages);
         $this->session->flash('noty.config', $this->config);
 
-        $availTypes = ['blue', 'red', 'green', 'yellow'];
+        $availTypes = ['blue', 'red', 'green', 'yellow', 'primary'];
         if (in_array($type, $availTypes)) {
             $this->session->flash('noty.config.type', $type);
         }
