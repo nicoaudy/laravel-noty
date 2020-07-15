@@ -21,6 +21,7 @@
 				iziToast.show({
 					message: '{{ $item['text'] }}',
 					color: '{{ $item['type'] }}',
+					title: '{{ $item['title'] }}'
 				});
             @endforeach
         })();

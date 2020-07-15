@@ -23,32 +23,36 @@ class Noty
         return $this;
     }
 
-    public function info($message = null)
+    public function info($title = null, $message = null)
     {
-        return $this->message($message, 'blue');
+        return $this->message($message, 'blue', $title);
     }
 
-    public function warning($message = null)
+    public function warning($title = null, $message = null)
     {
-        return $this->message($message, 'yellow');
+        return $this->message($message, 'yellow', $title);
     }
 
-    public function success($message = null)
+    public function success($title = null, $message = null)
     {
-        return $this->message($message, 'green');
+        return $this->message($message, 'green', $title);
     }
 
-    public function danger($message = null)
+    public function danger($title = null, $message = null)
     {
-        return $this->message($message, 'red');
+        return $this->message($message, 'red', $title);
     }
 
-    public function message($message, $type = 'primary')
+    public function flash($title = null, $message = null)
+    {
+        return $this->message($message, 'primary', $title);
+    }
+
+    private function message($message, $type, $title)
     {
         $messages = [];
 
         if (! empty($message)) {
-            // old messages exists
             if (! empty(session('noty.messages'))) {
                 $messages = session('noty.messages');
             }
@@ -57,6 +61,7 @@ class Noty
                 $messages[] = [
                     'text' => $message,
                     'type' => $type,
+                    'title' => $title ?? null,
                 ];
             }
         }
