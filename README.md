@@ -1,4 +1,4 @@
-# Laravel flash message wrapper for izitoast
+# Elegant Flash Message Wrapper For Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/noty.svg?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/noty.svg?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
