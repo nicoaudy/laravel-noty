@@ -14,8 +14,9 @@ class NotyServiceProvider extends ServiceProvider
             ], 'config');
 
             $this->publishes([
-                __DIR__ . '/../resources/views' => base_path('resources/views/vendor/noty'),
-            ], 'views');
+                __DIR__ . '/../public/css/toast.min.css' => public_path('vendor/noty/toast.min.css'),
+                __DIR__ . '/../public/js/toast.min.js' => public_path('vendor/noty/toast.min.js'),
+            ], 'assets');
         }
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'noty');

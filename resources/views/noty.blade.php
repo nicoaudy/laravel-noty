@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+<link rel="stylesheet" href="{{ asset('vendor/noty/toast.min.css') }}">
+<script src="{{ asset('vendor/noty/toast.min.js') }}"></script>
 
 @if(session()->has('noty.messages'))
     <script type="text/javascript">
