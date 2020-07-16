@@ -39,7 +39,7 @@ return [
     /*
      * Themes:  light, dark
      */
-    'theme' => 'dark',
+    'theme' => 'light',
 
     /*
      * Layout:  1 (title inline with message), 2 (title on top of message)
@@ -59,10 +59,10 @@ return [
     /*
      * [string] - Progress bar color
      */
-    'progressBarColor' => '',
+    'progressBarColor' => 'rgb(0, 255, 184)',
 
     /*
-     * [string] - Progress bar easing
+     * [string] - Progress bar linear / ease
      */
     'progressBarEasing' => 'linear',
 
