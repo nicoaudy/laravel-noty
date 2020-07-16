@@ -6,8 +6,9 @@
 
 This is a elegant and configurable notify package to send flash messages in Laravel apps. A flash message is a message that is carried over to the next request by storing it in the session.
 
-Screenshot:
+
 ![Screenshot](./screenshots/noty-screenshot.png "Screenshot")
+
 
 This is how it can be used:
 
