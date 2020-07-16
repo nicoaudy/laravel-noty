@@ -1,7 +1,7 @@
 {
     "name": "nicoaudy/noty",
-    "description": "Laravel flash message wrapper for izitoast",
-    "keywords": ["nicoaudy", "noty"],
+    "description": "Elegant Flash Message Wrapper For Laravel",
+    "keywords": ["nicoaudy", "noty", "flash message"],
     "homepage": "https://github.com/nicoaudy/noty",
     "license": "MIT",
     "authors": [
