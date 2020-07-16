@@ -4,7 +4,12 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/spatie/noty/run-tests?label=tests)](https://github.com/nicoaudy/noty/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/noty.svg?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This is a elegant and configurable notify package to send flash messages in Laravel apps. A flash message is a message that is carried over to the next request by storing it in the session.
+
+Screenshot:
+![Screenshot](./screenshots/noty-screenshot.png "Screenshot")
+
+This is how it can be used:
 
 ## Installation
 
