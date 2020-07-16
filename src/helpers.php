@@ -14,3 +14,10 @@ if (! function_exists('noty')) {
         return $noty;
     }
 }
+
+if (! function_exists('noty_assets')) {
+    function noty_assets()
+    {
+        return view('noty::noty');
+    }
+}
