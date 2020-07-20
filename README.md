@@ -1,7 +1,9 @@
 # Elegant Flash Message Wrapper For Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/noty.svg?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/noty.svg?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
+
+[![License](https://img.shields.io/github/license/nicoaudy/laravel-noty?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/nicoaudy/noty.svg?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
+[![Total Downloads](https://img.shields.io/packagist/dt/nicoaudy/noty.svg?style=flat-square)](https://packagist.org/packages/nicoaudy/noty)
 
 This is a elegant and configurable notify package to send flash messages in Laravel apps. A flash message is a message that is carried over to the next request by storing it in the session.
 
