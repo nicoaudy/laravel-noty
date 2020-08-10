@@ -180,7 +180,7 @@ noty()->flash('Hey!', 'This is message');
 noty()->info('Hey!', 'This is message');
 noty()->success('Hey!', 'This is message');
 noty()->warning('Hey!', 'This is message');
-noty()->error('Hey!', 'This is message');
+noty()->danger('Hey!', 'This is message');
 ```
 
 With this message flashed to the session, you may now display it in your view(s). Because flash messages are so common, we provide a template out of the box to get you started. Place this before end of the body tag.
