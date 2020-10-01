@@ -158,6 +158,13 @@ return [
 ];
 ```
 
+Because flash messages are so common, we provide a template out of the box to get you started. Place this before end of the body tag.
+
+```php
+    {{ noty_assets() }}
+</body>
+```
+
 ## Usage
 
 Within your controllers, before you perform a redirect, make a call to the noty() function.
@@ -181,12 +188,7 @@ noty()->warning('Hey!', 'This is message');
 noty()->danger('Hey!', 'This is message');
 ```
 
-With this message flashed to the session, you may now display it in your view(s). Because flash messages are so common, we provide a template out of the box to get you started. Place this before end of the body tag.
-
-```php
-    {{ noty_assets() }}
-</body>
-```
+With this message flashed to the session, you may now display it in your view(s). 
 
 ## Testing
 
