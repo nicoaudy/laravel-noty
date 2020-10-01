@@ -99,7 +99,7 @@ return [
     /*
      * Pause on hover
      */
-    'pauseOnHover' => true, // bool
+    'pauseOnHover' => false, // bool
 
     /*
      * Reset on hover
