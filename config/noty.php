@@ -59,7 +59,7 @@ return [
     /*
      * [string] - Progress bar color
      */
-    'progressBarColor' => 'rgb(0, 255, 184)',
+    'progressBarColor' => '#E9ECEF',
 
     /*
      * [string] - Progress bar linear / ease
